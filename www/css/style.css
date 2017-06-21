@@ -1,15 +1,29 @@
 /* Empty. Add your own CSS if you like */
 
 .home-img{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   width: 100%;
-  position: relative;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#img1{
+  background-image: url("../img/volkan-olmez-73767.jpg");
+}
+#img2{
+  background-image: url("../img/rawpixel-com-256642.jpg");
+}
+#img3{
+  background-image: url("../img/helloquence-61189.jpg");
 }
 .home-textbox{
-  position: absolute;
-  top: 17%;
-  left: 10%;
+  text-align: center;
   color: black;
-  width: 85%;
+  padding: 30px;
+  width: auto;
   height: 20%;
   font-size: 25px;
   display: flex;
@@ -17,20 +31,6 @@
   align-items: center;
   border-radius: 20px;
   flex-wrap: wrap;
-  background: rgba(240, 255, 255,0.7)
-}
-.home-textbox2{
-  position: absolute;
-  top: 65%;
-  left: 10%;
-  color: black;
-  width: 85%;
-  height: 20%;
-  font-size: 25px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 20px;
-  flex-wrap: wrap;
-  background: rgba(240, 255, 255,0.7)
+  flex-direction: column;
+  background: rgba(255, 255, 255,0.7);
 }
