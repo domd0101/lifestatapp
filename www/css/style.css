@@ -1,0 +1,36 @@
+/* Empty. Add your own CSS if you like */
+
+.home-img{
+  width: 100%;
+  position: relative;
+}
+.home-textbox{
+  position: absolute;
+  top: 17%;
+  left: 10%;
+  color: black;
+  width: 85%;
+  height: 20%;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  flex-wrap: wrap;
+  background: rgba(240, 255, 255,0.7)
+}
+.home-textbox2{
+  position: absolute;
+  top: 65%;
+  left: 10%;
+  color: black;
+  width: 85%;
+  height: 20%;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  flex-wrap: wrap;
+  background: rgba(240, 255, 255,0.7)
+}
